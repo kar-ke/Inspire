@@ -1,0 +1,17 @@
+@media (max-width: 800px){
+    .menu-button{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .mobile-menuitem-lists{
+        width: 100%;
+    }
+    .menuitems-container{
+        padding: 0 10px;
+    }
+}

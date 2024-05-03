@@ -1,0 +1,52 @@
+.menuitems-container{
+    background-color: white;
+    padding: 0 40px;
+}
+
+/* desktop navbar  */
+.desktop-menuitem-lists{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 60px;
+}
+
+.desktop:hover{
+    color: rgb(121, 121, 121);
+    border-bottom: 3px solid chartreuse;
+}
+
+.logoText{
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: auto;
+}
+
+.menu-button{
+    display: none;
+}
+
+/* mobile view sidebar  */
+.mobile-menuitem-lists{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 350px;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.219);
+    backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.close-button{
+    margin: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+

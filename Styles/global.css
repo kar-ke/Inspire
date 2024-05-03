@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--f-regular);
+    font-size: 16px;
+    color: black;
+    background-image: url(../Assets/GMeKIThaUAAxrIo.jpeg);
+    background-size: cover;
+}
+
+a { text-decoration: none; cursor: pointer; color: inherit}
+ul li {list-style-type: none; list-style: none;}

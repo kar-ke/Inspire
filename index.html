@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Test</title>
+
+    <!-- style  -->
+    <link rel="stylesheet" href="./Styles/root.css">
+</head>
+<body>
+    <nav class="menuitems-container"> 
+
+        <!-- Desktop navbar  -->
+        <ul class="desktop-menuitem-lists">
+            <li class="logoText"><span>Inspire</span></li>
+            <li><a href="#" class="desktop">Products</a></li>
+            <li><a href="#" class="desktop">Customers</a> </li>
+            <li><a href="#" class="desktop">Company</a></li>
+            <li><a href="#" class="desktop">Contact</a></li>
+            <li><a href="#" class="desktop">About</a></li>
+            <li><img onclick=handleOpen() class="menu-button" src="./Assets/icons/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="menubutton"></li>
+        </ul>
+
+        <!-- Mobile view sidebar  -->
+        <ul class="mobile-menuitem-lists">
+            <li><img class="close-button" onclick=handleClose() src="./Assets/icons/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="closemenu"></li>
+            <li><a href="#" class="mobile">Products</a></li>
+            <li><a href="#" class="mobile">Customers</a> </li>
+            <li><a href="#" class="mobile">Company</a></li>
+            <li><a href="#" class="mobile">Contact</a></li>
+            <li><a href="#" class="mobile">About</a></li>
+        </ul>
+    </nav>
+    <!-- javascript file  -->
+    <script src="./Script/script.js"></script>
+</body>
+</html>

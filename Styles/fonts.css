@@ -1,0 +1,10 @@
+@font-face {
+    font-family: poppins_regular;
+    src: url(../Assets/Fonts/Poppins-Regular.ttf);
+    font-display: swap;
+    font-weight: 400;
+}
+
+:root{
+    --f-regular : poppins_regular;
+}
